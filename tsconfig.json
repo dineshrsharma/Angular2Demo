@@ -12,8 +12,8 @@
     "filesGlob": [
       "main.ts",
       "typings.d.ts",
-      "app/**/*.ts",
-      "!app/**/*.spec.ts",
+      "login_register/**/*.ts",
+      "!login_register/**/*.spec.ts",
       "demoApp/**/*.ts",
       "!demoApp/**/*.spec.ts"
     ]

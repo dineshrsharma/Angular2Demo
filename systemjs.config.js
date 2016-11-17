@@ -11,8 +11,8 @@
         // map tells the System loader where to look for things
         map: {
             // our app is within the app folder
-            //app: 'app',
-            app: 'demoApp', //New application
+            //app: 'login_register', //Login & Register app by Jason Watmore
+            app: 'demoApp', //New application for Demo
             // angular bundles
             '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
             '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
