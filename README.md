@@ -2,7 +2,8 @@
 
 # demoApp: Demo Application
 
-Steps to switch between apps:
+#Steps to switch between apps:
+
 1. Go to file systemjs.config.js
 2. Uncomment the required application and comment the others for property app => System.config.map.app & SAVE 
 3. Go to file index.html
