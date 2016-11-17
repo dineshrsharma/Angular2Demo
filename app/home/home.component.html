@@ -1,0 +1,24 @@
+﻿<div class="col-md-6 col-md-offset-3">
+    <h1>Hi {{currentUser.firstName}}!</h1>
+    <p>Hello Angular Team!!!</p>
+    <label>
+      Date:<p-calendar [(ngModel)]="date" [monthNavigator]="true" [yearNavigator]="true" yearRange="2010:2030"></p-calendar> {{date|date}}
+    </label>
+    <select name="cars" multiple class="w100">
+      <option value="rdc">Ramdhan Choudhary aka RDC</option>
+      <option value="drs">Dinesh R Sharma</option>
+      <option value="dig">Digesh Panchal</option>
+      <option value="khy">Khyati Rana</option>
+      <option value="aman">Amandeep Nain</option>
+      <option value="b">BBBBBBBBBB</option>
+      <option value="c">CCCCCCCCCC</option>
+    </select>
+    <h3>All registered users:</h3>
+    <ul>
+        <li *ngFor="let user of users">
+            {{user.username}} ({{user.firstName}} {{user.lastName}})
+            - <a (click)="deleteUser(user.id)">Delete</a>
+        </li>
+    </ul>
+    <p><a [routerLink]="['/login']">Logout</a></p>
+</div>
